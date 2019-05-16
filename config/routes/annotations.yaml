@@ -1,0 +1,7 @@
+ip_controllers:
+    resource: ../../src/Ip/Controller/
+    type: annotation
+
+phone_controllers:
+    resource: ../../src/Phone/Controller/
+    type: annotation

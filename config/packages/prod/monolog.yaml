@@ -1,0 +1,12 @@
+monolog:
+  channels: [resolver_log, syslog_handler]
+  handlers:
+    resolver_log:
+      type: stream
+      path: "%kernel.logs_dir%/resolver.log"
+      level: info
+      channels: resolver_log
+
+    syslog_handler:
+      type: syslog
+      level: debug

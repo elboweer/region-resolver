@@ -1,0 +1,5 @@
+parameters:
+  env(APP_SECRET): 84e00cf11720d4db4ea15300839f097c
+  env(APP_ENV): prod
+  locale: 'en'
+  dadata_token: ~
